@@ -1,6 +1,5 @@
 .hero-sidebar-container {
-  background-color: var(--color-navy);
-  color: var(--color-white);
+  color: var(--color-text);
 }
 
 .hero-sidebar-container .hero-sidebar-wrapper {
@@ -14,7 +13,6 @@
   grid-template-columns: 1fr;
   gap: var(--spacing-l);
   padding: var(--spacing-xl) var(--spacing-m);
-  color: var(--color-white);
 }
 
 .hero-sidebar h1 {
@@ -22,21 +20,18 @@
   font-weight: 700;
   line-height: 1.25;
   margin: 0 0 var(--spacing-m) 0;
-  color: var(--color-white);
 }
 
 .hero-sidebar p {
   font-size: var(--body-font-size-m);
   line-height: 1.5;
   margin: 0 0 var(--spacing-m) 0;
-  color: var(--color-white);
 }
 
 .hero-sidebar h3 {
   font-size: var(--heading-font-size-m);
   font-weight: 700;
   margin: var(--spacing-l) 0 var(--spacing-s) 0;
-  color: var(--color-white);
 }
 
 .hero-sidebar ul {
@@ -52,7 +47,7 @@
 }
 
 .hero-sidebar a {
-  color: var(--color-white);
+  color: var(--link-color);
   text-decoration: none;
   font-weight: 600;
 }
@@ -70,10 +65,11 @@
   }
 
   .hero-sidebar > div:last-child {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #FFE5E5;
     padding: var(--spacing-l);
     border-radius: 8px;
     align-self: start;
+    border-left: 4px solid #C41E3A;
   }
 
   .hero-sidebar h1 {
@@ -81,7 +77,3 @@
   }
 }
 
-/* Remove default styling from block decoration */
-.hero-sidebar.no-image * {
-  color: var(--color-white);
-}

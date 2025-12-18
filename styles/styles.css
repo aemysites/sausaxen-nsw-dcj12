@@ -105,6 +105,7 @@ body.appear {
 
 header {
   height: var(--nav-height);
+  background-color: var(--color-navy);
 }
 
 header .header,
