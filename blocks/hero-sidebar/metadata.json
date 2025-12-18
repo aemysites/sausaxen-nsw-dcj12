@@ -1,0 +1,38 @@
+{
+  "variantName": "hero-sidebar",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2025-12-18T09:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://dcj.nsw.gov.au/",
+    "originPage": "Department of Communities and Justice homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "homepage-hero",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "heading + paragraph + sidebar callout box",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "government homepages",
+      "department landing pages",
+      "pages with emergency contact info sidebar"
+    ],
+    "notSuitableFor": [
+      "product pages",
+      "marketing landing pages with CTAs"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2025-12-18T09:20:00.000Z"
+  }
+}

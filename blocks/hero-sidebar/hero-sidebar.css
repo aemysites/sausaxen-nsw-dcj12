@@ -1,0 +1,87 @@
+.hero-sidebar-container {
+  background-color: var(--color-navy);
+  color: var(--color-white);
+}
+
+.hero-sidebar-container .hero-sidebar-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.hero-sidebar {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-l);
+  padding: var(--spacing-xl) var(--spacing-m);
+  color: var(--color-white);
+}
+
+.hero-sidebar h1 {
+  font-size: var(--heading-font-size-xl);
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 var(--spacing-m) 0;
+  color: var(--color-white);
+}
+
+.hero-sidebar p {
+  font-size: var(--body-font-size-m);
+  line-height: 1.5;
+  margin: 0 0 var(--spacing-m) 0;
+  color: var(--color-white);
+}
+
+.hero-sidebar h3 {
+  font-size: var(--heading-font-size-m);
+  font-weight: 700;
+  margin: var(--spacing-l) 0 var(--spacing-s) 0;
+  color: var(--color-white);
+}
+
+.hero-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-sidebar li {
+  margin-bottom: var(--spacing-s);
+  font-size: var(--body-font-size-m);
+  line-height: 1.5;
+}
+
+.hero-sidebar a {
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero-sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Two column layout for desktop */
+@media (width >= 900px) {
+  .hero-sidebar {
+    grid-template-columns: 2fr 1fr;
+    gap: var(--spacing-xxl);
+    padding: var(--spacing-xxl) var(--spacing-xl);
+  }
+
+  .hero-sidebar > div:last-child {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: var(--spacing-l);
+    border-radius: 8px;
+    align-self: start;
+  }
+
+  .hero-sidebar h1 {
+    font-size: var(--heading-font-size-xxl);
+  }
+}
+
+/* Remove default styling from block decoration */
+.hero-sidebar.no-image * {
+  color: var(--color-white);
+}

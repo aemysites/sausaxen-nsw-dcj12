@@ -1,0 +1,38 @@
+{
+  "variantName": "cards-info",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2025-12-18T09:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://dcj.nsw.gov.au/",
+    "originPage": "Department of Communities and Justice homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "colored",
+    "density": "minimal",
+    "purpose": "info-navigation",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "grid of cards with icons/images, heading, link, varied backgrounds",
+    "buttonCount": 6,
+    "imageCount": 6
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "information navigation sections",
+      "resource links with icons",
+      "about/learn more sections"
+    ],
+    "notSuitableFor": [
+      "large feature cards",
+      "uniform styled cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2025-12-18T09:20:00.000Z"
+  }
+}

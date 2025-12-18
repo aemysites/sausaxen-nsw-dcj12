@@ -1,0 +1,50 @@
+{
+  "templates": [
+    {
+      "name": "dcj-homepage",
+      "urls": ["https://dcj.nsw.gov.au/"],
+      "description": "DCJ Homepage template with hero, cards, columns, and table blocks",
+      "blocks": [
+        {
+          "name": "hero-sidebar",
+          "selector": ".hero-banner .nsw-hero-banner"
+        },
+        {
+          "name": "section-dark",
+          "section": true,
+          "selector": ".nsw-section--brand-dark"
+        },
+        {
+          "name": "section-white",
+          "section": true,
+          "selector": ".nsw-section:not(.nsw-section--brand-dark):not(.nsw-section--box)"
+        },
+        {
+          "name": "cards-action",
+          "selector": ".button-link-list"
+        },
+        {
+          "name": "section-box",
+          "section": true,
+          "selector": ".nsw-section--box"
+        },
+        {
+          "name": "columns-header",
+          "selector": ".text h2"
+        },
+        {
+          "name": "cards-feature",
+          "selector": ".relatedContent .nsw-card"
+        },
+        {
+          "name": "table-news",
+          "selector": ".relatedContent table, .nsw-list"
+        },
+        {
+          "name": "cards-info",
+          "selector": ".relatedContent .nsw-card"
+        }
+      ]
+    }
+  ]
+}

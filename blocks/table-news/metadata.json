@@ -1,0 +1,38 @@
+{
+  "variantName": "table-news",
+  "baseBlock": "table",
+  "version": "1.0.0",
+  "created": "2025-12-18T09:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://dcj.nsw.gov.au/",
+    "originPage": "Department of Communities and Justice homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "news-list",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "table with Title and Date columns",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "news announcements",
+      "press releases",
+      "dated content lists"
+    ],
+    "notSuitableFor": [
+      "complex data tables",
+      "multi-column data"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2025-12-18T09:20:00.000Z"
+  }
+}
