@@ -163,7 +163,15 @@ pre {
 }
 
 main > div {
-  margin: 40px 16px;
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 0 24px;
+}
+
+@media (width >= 900px) {
+  main > div {
+    padding: 0 32px;
+  }
 }
 
 input,

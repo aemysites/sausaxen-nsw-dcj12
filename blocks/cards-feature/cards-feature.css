@@ -1,7 +1,5 @@
 .cards-feature-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: var(--spacing-xl) var(--spacing-m);
+  padding: 0;
 }
 
 .cards-feature > ul {
