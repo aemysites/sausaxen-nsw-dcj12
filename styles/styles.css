@@ -313,3 +313,33 @@ main .section.grey {
 .section.hidden {
   display: none;
 }
+
+/* News and Media section styling */
+main .section h2#news-and-media {
+  margin-bottom: var(--spacing-l);
+}
+
+main .section h2#news-and-media ~ p {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: var(--spacing-m) var(--spacing-s);
+  border-bottom: 1px solid #E0E0E0;
+  margin: 0;
+  transition: background-color 0.2s ease;
+}
+
+main .section h2#news-and-media ~ p:hover {
+  background-color: var(--color-grey);
+}
+
+main .section h2#news-and-media ~ p strong {
+  flex: 1;
+  font-size: var(--body-font-size-m);
+  font-weight: 500;
+  margin-right: var(--spacing-m);
+}
+
+main .section h2#news-and-media ~ p:last-of-type {
+  border-bottom: none;
+}

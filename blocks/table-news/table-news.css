@@ -9,71 +9,70 @@
   overflow-x: auto;
 }
 
-.table-news.block > div {
-  display: block;
-  border-bottom: 1px solid #E0E0E0;
-  padding: var(--spacing-m) 0;
-  transition: background-color 0.2s ease;
+.table-news table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-.table-news.block > div:first-child {
+.table-news thead th {
   font-weight: 700;
-  border-bottom: 2px solid var(--color-text);
-  background-color: transparent;
-}
-
-.table-news.block > div:hover:not(:first-child) {
-  background-color: var(--color-grey);
-}
-
-.table-news.block > div > div {
-  display: inline-block;
-  padding: 0 var(--spacing-s);
-  vertical-align: top;
-}
-
-.table-news.block > div > div:first-child {
-  width: 70%;
-}
-
-.table-news.block > div > div:last-child {
-  width: 30%;
-  text-align: right;
-  color: var(--color-dark-grey);
-}
-
-.table-news.block > div:first-child > div {
   font-size: var(--body-font-size-s);
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--color-text);
+  padding: var(--spacing-m) var(--spacing-s);
+  text-align: left;
 }
 
-.table-news.block > div:not(:first-child) > div:first-child {
+.table-news thead th:last-child {
+  text-align: right;
+}
+
+.table-news tbody tr {
+  border-bottom: 1px solid #E0E0E0;
+  transition: background-color 0.2s ease;
+}
+
+.table-news tbody tr:hover {
+  background-color: var(--color-grey);
+}
+
+.table-news tbody td {
+  padding: var(--spacing-m) var(--spacing-s);
+  vertical-align: top;
+}
+
+.table-news tbody td:first-child {
+  width: 70%;
   font-size: var(--body-font-size-m);
   line-height: 1.4;
-}
-
-.table-news.block > div:not(:first-child) > div:last-child {
-  font-size: var(--body-font-size-s);
-}
-
-.table-news.block a {
-  color: var(--color-text);
-  text-decoration: none;
   font-weight: 500;
 }
 
-.table-news.block a:hover {
+.table-news tbody td:last-child {
+  width: 30%;
+  text-align: right;
+  color: var(--color-dark-grey);
+  font-size: var(--body-font-size-s);
+}
+
+.table-news a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.table-news a:hover {
   color: var(--color-blue);
   text-decoration: underline;
 }
 
 @media (width < 600px) {
-  .table-news.block > div > div:first-child {
+  .table-news tbody td:first-child {
     width: 60%;
   }
 
-  .table-news.block > div > div:last-child {
+  .table-news tbody td:last-child {
     width: 40%;
   }
 }
